@@ -1,0 +1,220 @@
+*{
+    transition: all 1s;
+}
+body {
+    font-family: 'poppins';
+    background-color: rgba(0, 8, 29, 1);
+    /* background-image: linear-gradient(65.68deg, rgba(0, 8, 29, 0.6) 9.51%, rgba(53, 13, 49, 0.6) 72.89%, rgba(132, 5, 25, 0.6) 101.01%), linear-gradient(102.21deg, rgba(0, 0, 0, 0.04) 16.09%, rgba(1, 1, 1, 0.17) 39.27%, rgba(1, 1, 1, 0.24) 64.25%, rgba(4, 4, 4, 0.8) 96.63%), url(https://assets.nflxext.com/ffe/siteui/vlv3/70805ddd-f38c-4e25-94cd-b5015e444ee0/1f8bf493-1be8-440e-b5ac-1b2985346176/NG-en-20230508-popsignuptwoweeks-perspective_alpha_website_large.jpg); */
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.logo{
+    width: 150px;
+    margin-right: 1000px;
+}
+.logo img{
+    width: 100%;
+}
+.sign button{
+    width: 70px;
+    height: 30px;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.sign button:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid rgb(229, 9, 20);
+    transition: 1s;
+}
+
+.first_sect{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.banner{
+    background-image: linear-gradient(65.68deg, rgba(0, 8, 29, 0.6) 9.51%, rgba(53, 13, 49, 0.6) 72.89%, rgba(132, 5, 25, 0.6) 101.01%), linear-gradient(102.21deg, rgba(0, 0, 0, 0.04) 16.09%, rgba(1, 1, 1, 0.17) 39.27%, rgba(1, 1, 1, 0.24) 64.25%, rgba(4, 4, 4, 0.8) 96.63%), url(https://assets.nflxext.com/ffe/siteui/vlv3/70805ddd-f38c-4e25-94cd-b5015e444ee0/1f8bf493-1be8-440e-b5ac-1b2985346176/NG-en-20230508-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    width: 1230px;
+    height: 600px;
+    border-radius: 12px;
+    color: #fff;
+}
+.banner2{
+    margin-left: 120px;
+    margin-top: 120px;
+}
+.banner h1{
+    font-size: 60px;
+    width: 800px;
+    font-weight: 800;
+    margin: 0;
+}
+.banner .first_p{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+.banner .second_p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 30px;
+}
+.searchbox{
+    align-items: center;
+    margin-top: 20px;
+    display: inline flex;
+    justify-content: center;
+}
+.searchbox input{
+    width: 350px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.562);
+    border: 0.5px solid #ffffff6c;
+    border-radius: 4px;
+    padding: 0;
+    font-size: 20px;
+    color: #ffffffb9;
+    font-weight: 600;
+}
+.searchbox button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(229, 9, 20);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    padding: 0;
+    display: inline flex;
+    align-items: center;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.second_sect{
+    background-image: linear-gradient(65.68deg, rgba(0, 8, 29, 0.6) 9.51%, rgba(53, 13, 49, 0.6) 72.89%, rgba(132, 5, 25, 0.6) 101.01%), linear-gradient(102.21deg, rgba(0, 0, 0, 0.04) 16.09%, rgba(1, 1, 1, 0.17) 39.27%, rgba(1, 1, 1, 0.24) 64.25%, rgba(4, 4, 4, 0.8) 96.63%);
+    color: #fff;
+    width: 1230px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+}
+.about2{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.text{
+    width: 500px;
+    margin-left: 0px;
+}
+.text h1{
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 20px;
+}
+.tv{
+    width: 500px;
+}
+.tv img{
+    width: 100%;
+}
+.stroke{
+    width: 1000px;
+    height: 8px;
+    background-color: #ffffff11;
+}
+.third_sect{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 100px;
+}
+.faq_text{
+    background-color: rgba(19, 33, 68, 1);
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.faq_text:hover{
+    background-color: rgb(34, 52, 92);
+}
+.faq_text p{
+    margin-left: 30px;
+    font-size: 25px;
+}
+.faq_text svg{
+    font-size: 45px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+.faq a{
+    color: #fff;
+    text-decoration: none;
+}
+.faq h1{
+    font-size: 40px;
+    margin: 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.feet a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+}
+.foot ul{
+    padding: 0px 130px 0px 0px;
+}
+.foot ul li{
+    list-style-type: none;
+    padding: 3px 0px;
+}
+.feet button{
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.562);
+    border: 0.5px solid #ffffff6c;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+.feet p{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
